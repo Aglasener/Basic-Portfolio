@@ -1,0 +1,39 @@
+.box-set {
+    position: relative;
+    height: 850px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    /* Absolute Position */
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background: #2db34a;
+  }
+
+
+  .box-1 {
+    top: 0;
+    left: -40;
+  }
+  
+  .box-2 {
+    top: 0;
+    left: 290px;
+  }
+  
+  .box-3 {
+    left: -40px;
+    top: 300px;
+  }
+  
+  .box-4 {
+    top: 300px;
+    left: 290px;
+  }
+
+  .box-5 {
+      top: 600px;
+      left: -40px;
+  }
