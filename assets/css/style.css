@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    height: 100%;
 }
 
 header{
@@ -37,6 +38,7 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #dddddd;
+    height: 100%;
 }
 
 .Primary-Container{
@@ -47,6 +49,7 @@ h1{
     border: 2px solid #dddddd;
     margin-bottom: 20px;
     background-color: #ffffff;
+
 }
 
 h2{
@@ -75,6 +78,7 @@ color: #4aaaa5;
 }
 
 footer{
+    flex-shrink: 0;
     left: 0;
     width: 100%;
     text-align: center;
